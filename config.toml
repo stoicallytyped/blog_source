@@ -34,14 +34,20 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   identifier = "tags"
   url = "/tags/"
 
+# [[menu.main]]
+#   name = "Resume"
+#   weight = 100
+#   identifier = "resume"
+#   url = "/resume/"
+
 # Add your own params here
 [params]
   author = "Matt McKenna"
   bg = "images/grey-prism.svg"
   avatar = "images/avatar.png"
   seotitle = "StoicallyTyped"
-  subtitle = "Matt McKenna on Programming: Focusing on Android, Kotlin, Privacy, and Opensource"
-  description = "Matt McKenna on Programming, focusing on Android, Kotlin, Privacy, , and Opensource"
+  subtitle = "Matt McKenna on Programming: Focusing on Android, Kotlin, Privacy, Opensource, and Keyboards"
+  description = "Matt McKenna on Programming, focusing on Android, Kotlin, Privacy, Opensource, and Keyboards"
   paginate = 10
 
   # Choose your social networks
@@ -66,10 +72,11 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   # zhihu = "zhihu_username"
   # douban = "douban_username"
   # bilibili = "bilibili_id_number"
-  stackoverflow = "stoicallytyped"
+  stackoverflow = "11262765"
   # codesandbox = "codesandbox_username"
   # npm = "npm_username"
   reddit = "stoicallytyped"
+  twitch = "stoicallytyped"
 
   # Overrid theme styles in this file
   # customStyle = "styles/custom.scss"
