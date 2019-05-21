@@ -1,3 +1,6 @@
 [submodule "themes/nuo"]
 	path = themes/nuo
 	url = https://github.com/laozhu/hugo-nuo.git
+[submodule "themes/nuo-fork"]
+	path = themes/nuo-fork
+	url = https://github.com/stoicallytyped/hugo-nuo.git
