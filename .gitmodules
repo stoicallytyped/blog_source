@@ -4,3 +4,6 @@
 [submodule "themes/nuo-fork"]
 	path = themes/nuo-fork
 	url = https://github.com/stoicallytyped/hugo-nuo.git
+[submodule "public"]
+        path = public
+        url = https://github.com/stoicallytyped/stoicallytyped.github.io
