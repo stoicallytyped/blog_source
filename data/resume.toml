@@ -1,4 +1,4 @@
-name = "Matt McKenna TODO"
+name = "Matt McKenna"
 
 # These two variable definitions need to go before [contact], etc.
 languages = [
@@ -41,58 +41,101 @@ interests = [
     degree = "B.S. Computer Science"
     school = "West Chester University of Pennsylvania"
     year = "2012 - 2016"
-    description = "Courses: Algorithms, Computer Architecture."
+    description = "Certified in Computer Security and Information Assurance"
 
 
 [experience]
 
-#  [[experience.list]]
-#    name = "Google Cloud"
-#    company = "Google, Inc."
-#    location = "Mountain View, CA, USA"
-#    title = "Software Engineer"
-#    year = "01/2016 - now"
-#    description = """Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#      Suspendisse elit quam, maximus eget ex eget, vehicula ultricies nunc.
-#      Nam sodales eu ipsum non ultricies."""
+ [[experience.list]]
+   name = "Xfinity Stream"
+   company = "Comcast"
+   location = "Philadelphia, PA, USA"
+   title = "Android Engineer"
+   year = "03/2017 - Now"
+   projects = [
+      "Lead the effort to move from inconsistent MVP architecture to reactive MVI architecture",
+      "Implemented custom Chromecast capabilities with custom channels utilizing MVI",
+      "Boosted QA and Developer productivity implementing a debug drawer with multiple custom modules",
+    ]
 
-#   [[experience.list]]
-#     name = "Amazon Web Services"
-#     company = "Amazon"
-#     location = "Seattle, WA, USA"
-#     title = "Software Engineer"
-#     year = "09/2014 - 12/2015"
-#     projects = [
-#       """Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#          Suspendisse elit quam""",
-#       """Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#          Suspendisse elit quam""",
-#       """Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#          Suspendisse elit quam""",
-#     ]
+  [[experience.list]]
+    name = "NBA"
+    company = "Possible Mobile"
+    location = "Atlanta, GA, USA"
+    title = "Android Engineer"
+    year = "05/2016 - 03/2017"
+    projects = [
+      "Implemented Chromecast capabilities",
+      "Worked with MVVM and MVP architectures.",
+    ]
 
-#   [[experience.list]]
-#     name = "Aliyun"
-#     company = "Alibaba, Inc."
-#     location = "Hangzhou, Zhejiang, China"
-#     title = "Software Engineer"
-#     year = "01/2009 - 08/2014"
-#     projects = [
-#       "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-#       "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-#       "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-#     ]
+  [[experience.list]]
+    name = "Derema Help"
+    company = "Derema Group"
+    location = "West Chester, PA, USA"
+    title = "Android/iOS Engineer"
+    year = "2013 - 2015"
+    projects = [
+      "Responsible for developing native Android and iOS applications from scratch",
+      "Developed solutions for downloading and storing files offline with the ability to remotely update these documents",
+      "Maintained all aspects of Google Play / App Store listings",
+      "Integrated mobile analytics to track usage to better understand customer needs",
+      "Designed the UI/UX following platform guidelines while meeting client requirements",
+      "Utilized version control with Git and bitbucket.org",
+      "Responsible for the inception and implementation of new features",
+      "Developed a slot machine game to use as a rewards system while in the showroom",
+      "www.deremahelp.com"
+    ]
 
-# [skill]
+  [[experience.list]]
+    name = "Mobile Device Management"
+    company = "SEI"
+    location = "Oaks, PA, USA"
+    title = "Intern"
+    year = "2013 - 2014"
+    projects = [
+      "Responsible for testing different MDM solutions in a Bring Your Own Device environment.",
+      "Created documentation for a vareity of devices on how to poperly set up devices to meet workplace MDM standards.",
+    ]    
 
-#   [[skill.list]]
-#     name = "C/C++"
-#     level = "80"
+[skill]
 
-#   [[skill.list]]
-#     name = "Python"
-#     level = "80"
+  [[skill.list]]
+    name = "Kotlin"
+    level = "80"
 
-#   [[skill.list]]
-#     name = "HTML"
-#     level = "80"
+  [[skill.list]]
+    name = "Java"
+    level = "80"
+
+  [[skill.list]]
+    name = "Git"
+    level = "90"
+
+  [[skill.list]]
+    name = "Gerrit"
+    level = "75"
+
+  [[skill.list]]
+    name = "RxJava"
+    level = "50"
+
+  [[skill.list]]
+    name = "Dagger"
+    level = "75"
+
+  [[skill.list]]
+    name = "okhttp"
+    level = "85"
+  
+  [[skill.list]]
+    name = "MVI Architecture"
+    level = "90"
+
+  [[skill.list]]
+    name = "MVP Architecture"
+    level = "95"
+
+  [[skill.list]]
+    name = "MVVM Architecture"
+    level = "70"
